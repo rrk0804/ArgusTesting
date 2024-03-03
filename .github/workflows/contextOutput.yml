@@ -1,0 +1,12 @@
+name: Detect Context Output Vulnerability
+
+on: 
+  issues: 
+    types: [opened, edited]
+
+jobs:
+  job1:
+    uses: rrk0804/ArgusTesting/.github/worflows/resuableWorkflow.yaml
+
+  job2:
+    
