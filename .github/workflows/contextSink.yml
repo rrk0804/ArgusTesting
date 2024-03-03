@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Log the issue's title
+        env: 
+          TITLE: ${{ github.event.issue.title }}
         run: |
           echo "A new pull request was created with the 
-          title ${{ github.event.issue.title }}"
+          title $TITLE"
