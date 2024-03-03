@@ -6,7 +6,7 @@ on:
 
 jobs:
   job1:
-    uses: ./.github/workflows/reusableWorkflow.yml
+    uses: rrk0804/ArgusReusable/.github/workflows/reusableWorkflow.yml@v1
 
   job2:
     runs-on: ubuntu-latest
