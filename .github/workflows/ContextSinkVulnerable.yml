@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Log the issue's title
         run: |
-          echo "The argument passed into the workflow is ${{ inputs.message }}" 
+          echo "The argument passed into the workflow is ${{ github.event_name }}" 
